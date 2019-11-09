@@ -12,5 +12,5 @@ else {
 		return(Math.sqrt(q * (q - x) * (q - y) * (q - z)));
 	};
 	
-	console.log(s(a, b, c, p).toFixed(3));
+	console.log(s(a, b, c, p).toFixed(3).trim());
 }
