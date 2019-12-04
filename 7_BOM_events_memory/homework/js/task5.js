@@ -1,3 +1,8 @@
+// Реалізуйте програму, яка по натисканню на кнопку виводитиме повідомлення 
+// "I was pressed!", при наведенні на кнопку виводитиме повідомлення "Mouse on me!", а при відведенні курсора миші виводитиме повідомлення "Mouse is not on me!".
+
+// Приклад роботи:
+
 document.getElementById('button').onclick = function(){
 	document.querySelector('p').innerHTML += '<p>I was pressed!</p>';
 };
