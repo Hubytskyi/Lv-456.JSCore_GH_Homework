@@ -7,3 +7,11 @@ $('input[type="checkbox"]').on('click', function(){
 		$('input[type="checkbox"]').removeAttr('disabled')
 	}
 });
+
+// $('input').on('click', function(){
+// 	if ($('input').not(':checked').length == 3){
+// 		$('input').not(':checked').attr('disabled', true)
+// 	} else {
+// 		$('input').removeAttr('disabled')
+// 	}
+// });
